@@ -1,5 +1,5 @@
 ## List of columns (currently)
-### Identifying variables
+### Data variables
 | Data variable   | Description |
 | ---  | --- |
 |FIPS| State-County FIPS Code |
@@ -7,13 +7,33 @@
 |Area Name| Area name (State/County) |
 
 ### Data variables
-
-#### Population Estimates: https://github.com/JieYingWu/COVID-19_US_County-level_Summaries
+#### Rural-Urban continuum code descriptors: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
+The 2013 Rural-Urban Continuum Codes form a classification scheme that distinguishes metropolitan counties by the population size of their metro area, and nonmetropolitan counties by degree of urbanization and adjacency to a metro area. The official Office of Management and Budget (OMB) metro and nonmetro categories have been subdivided into three metro and six nonmetro categories. Each county in the U.S. is assigned one of the 9 codes. This scheme allows researchers to break county data into finer residential groups, beyond metro and nonmetro, particularly for the analysis of trends in nonmetro areas that are related to population density and metro influence. The Rural-Urban Continuum Codes were originally developed in 1974. They have been updated each decennial since (1983, 1993, 2003, 2013), and slightly revised in 1988. Note that the 2013 Rural-Urban Continuum Codes are not directly comparable with the codes prior to 2000 because of the new methodology used in developing the 2000 metropolitan areas. See the Documentation for details and a map of the codes.
 | Data variable   | Description |
 | ---  | --- |
 |Rural urban Continuum Code 2013| Rural-urban Continuum Code, 2013 |
+
+### Data variables
+#### Urban Influence code descriptors: https://www.ers.usda.gov/data-products/urban-influence-codes.aspx
+The 2013 Urban Influence Codes form a classification scheme that distinguishes metropolitan counties by population size of their metro area, and nonmetropolitan counties by size of the largest city or town and proximity to metro and micropolitan areas. The standard Office of Management and Budget (OMB) metro and nonmetro categories have been subdivided into two metro and 10 nonmetro categories, resulting in a 12-part county classification. This scheme was originally developed in 1993. This scheme allows researchers to break county data into finer residential groups, beyond metro and nonmetro, particularly for the analysis of trends in nonmetro areas that are related to population density and metro influence.
+| Data variable   | Description |
+| ---  | --- |
 |Urban Influence Code 2013| Urban Influence Code, 2013|
+
+
+### Data variables
+#### Urban Influence code descriptors: https://www.ers.usda.gov/data-products/county-typology-codes/
+An area's economic and social characteristics have significant effects on its development and need for various types of public programs. To provide policy-relevant information about diverse county conditions to policymakers, public officials, and researchers, ERS has developed a set of county-level typology codes that captures a range of economic and social characteristics.
+
+The 2015 County Typology Codes classify all U.S. counties according to six mutually exclusive categories of economic dependence and six overlapping categories of policy-relevant themes. The economic dependence types include farming, mining, manufacturing, Federal/State government, recreation, and nonspecialized counties. The policy-relevant types include low education, low employment, persistent poverty, persistent child poverty, population loss, and retirement destination.
+| Data variable   | Description |
+| ---  | --- |
 |Economic typology 2015| County economic types, 2015 edition|
+
+### Data variables
+#### Population Estimates: https://github.com/JieYingWu/COVID-19_US_County-level_Summaries
+| Data variable   | Description |
+| ---  | --- |
 |POP ESTIMATE 2018| 7/1/2018 resident total population estimate |
 |N POP CHG 2018| Numeric Change in resident total population 7/1/2017 to 7/1/2018|
 |Births 2018|Births in period 7/1/2017 to 6/30/2018|
@@ -372,6 +392,7 @@ Data presented below was retrieved at state level and projected onto county leve
 |transit scores - population weighted averages aggregated from town/city level to county| Transit scores - how well a location is served by public transit|
 
 #### Crime Data: https://github.com/JieYingWu/COVID-19_US_County-level_Summaries
+Crime data from the 2016 UCR Uniform Crime Report
 | Data variable   | Description |
 | ---  | --- |
 | crime rate per 100000 | Crime rate per 100,000 people 2016
@@ -601,6 +622,7 @@ Data presented below was retrieved at state level and projected onto county leve
 | Marriage Licenses issued for Brides age 10 to 17 2013 | Number of marriage licenses issued for brides aged 10-17 in 2013
 
 #### Education: VPK http://www.floridaearlylearning.com/about-us/early-learning-resources
+These are the number of VPK providers (voluntary pre-k) which provide free or reduced comprehensive pre-kindergarten educaiton. Included is the number of children eligible in a county who were enrolled in 2018-2019, and the number of children who were eligible but did not enroll.
 | Data variable   | Description |
 | ---  | --- |
 | VPK School year Faith based | Count of faith-based providers for the 2018-2019 school year that have delivered VPK instruction. A faith-based provider is a child care provider that is associated with a religious institution or uses a faith-based curriculum.	
@@ -619,6 +641,7 @@ Data presented below was retrieved at state level and projected onto county leve
 | Total summer VPK eligible but not enrolled | Count of children who have been determined eligible for 2018-2019 summer VPK but have not enrolled in either the school-year or summer. A child may be determined eligible for VPK services but is not enrolled until the parent chooses a VPK provider and the child is enrolled with that provider to receive services.
 
 #### District grades and metrics: http://www.fldoe.org/accountability/accountability-reporting/school-grades/
+This is the state generated metric system which evaluates a county based on how well their students perform on statewide standardized testing, achievement gains on testing, graduation rates, and accelerated/enhanced education. The Grades <year> section is the grade given by the state for the school district as a whole. It is converted from a letter grade (A-F) to a numerical scale (4-1).
 | Data variable   | Description |
 | ---  | --- |
 | Eng Lang Arts Achieve | Student performance on English/Language arts statewide standardized assessments, including the comprehensive assessments and end-of-course (EOC) assessments. The component measures the percentage of full-year enrolled students who achieved a passing score.	
@@ -805,7 +828,7 @@ Data presented below was retrieved at state level and projected onto county leve
 | Liscensed Barbers | Total number of licensed barbers as of 2020
 | Lisensed Cosmetologists | Total number of licensed cosmetologists as of 2020
 
-#### Churches http://www.usreligioncensus.org/index.php
+#### Churches http://www.usreligioncensus.org/compare.php
 | Data variable   | Description |
 | ---  | --- |
 | Religious adherents 2010 | Total number of adherents of all faiths in 2010
