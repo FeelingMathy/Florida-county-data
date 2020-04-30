@@ -420,6 +420,7 @@ Crime data from the 2016 UCR Uniform Crime Report
 | Protests Rallies | Date a reported protest or rally occured
 
 #### Health Rankings from https://www.countyhealthrankings.org/reports/state-reports/2020-florida-report
+This is where the data is from: https://www.countyhealthrankings.org/app/florida/2020/overview
 | Data variable   | Description |
 | ---  | --- |
 | Premature Deaths | Number of deaths which were younger than the average life expectancy
