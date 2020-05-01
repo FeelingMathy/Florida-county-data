@@ -415,9 +415,9 @@ Crime data from the 2016 UCR Uniform Crime Report
 #### County mass movement changes: https://github.com/JieYingWu/COVID-19_US_County-level_Summaries
 | Data variable   | Description |
 | ---  | --- |
-| Closed Date | Date the county filed an executive order partially closing or completely closing government services or amenities
-| Beaches Opened | Date the county opened the beach with or without restrictions
-| Protests Rallies | Date a reported protest or rally occured
+| Closed Date | The number of days prior to April 1, 2020 where the county filed an executive order partially closing or completely closing government services or amenities.
+| Beaches Opened | The number of days after April 1, 2020 where a county kept its beaches closed. 
+| Protests Rallies | The frequency of reported protest or rallies.
 
 #### Health Rankings from https://www.countyhealthrankings.org/reports/state-reports/2020-florida-report
 This is where the data is from: https://www.countyhealthrankings.org/app/florida/2020/overview
@@ -732,6 +732,30 @@ This is the state generated metric system which evaluates a county based on how 
 | 2011 AADR per 100,000	| Resident Age Adjusted Death Rate (AADR) per 100,000 Population in 2011	
 | 2010 AADR per 100,000	| Resident Age Adjusted Death Rate (AADR) per 100,000 Population in 2010	
 | 2009 AADR per 100,000	| Resident Age Adjusted Death Rate (AADR) per 100,000 Population in 2009
+
+#### Deaths by all cardiovascular or respiratory causes from 2008-2018 by age: http://www.flhealthcharts.com/FLQUERY/Death/DeathCount.aspx
+Resident Death Counts by Age by Residence County
+113 Causes of Death=Acute Bronchitis & Bronchiolitis (J20-J21), Chronic Lower Respiratory Disease (J40-J42,J43,J44,J45-J46,J47), Influenza (J09-J11), Major Cardiovascular Disease (I00-I78), Other Circulatory System Disorders (I80-I99), Other Respiratory System Dis (J00-J06,J30-J39,J67,J70-J98), Pneumonia (J12-J18), Unspec Acute Lower Respiratory Infection (J22) and Year=2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018
+| Data variable   | Description |
+| ---  | --- |
+|Deaths cardiorespiratory ages 0 to 24 (10 years) | Deaths due to Acute Bronchitis & Bronchiolitis, Chronic Lower Respiratory Disease, Influenza, Major Cardiovascular Disease, Other Circulatory System Disorders, Other Respiratory System Disorders, Pneumonia, Unspec Acute Lower Respiratory Infection over the years 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 for ages 0 to 24.
+|Deaths cardiorespiratory ages 25 to 64 (10 years) | Deaths due to Acute Bronchitis & Bronchiolitis, Chronic Lower Respiratory Disease, Influenza, Major Cardiovascular Disease, Other Circulatory System Disorders, Other Respiratory System Disorders, Pneumonia, Unspec Acute Lower Respiratory Infection over the years 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 for ages 25 to 64.
+|Deaths cardiorespiratory 65plus (10 years) | Deaths due to Acute Bronchitis & Bronchiolitis, Chronic Lower Respiratory Disease, Influenza, Major Cardiovascular Disease, Other Circulatory System Disorders, Other Respiratory System Disorders, Pneumonia, Unspec Acute Lower Respiratory Infection over the years 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 for ages 65+.
+
+#### Cardiovascular deaths by year: http://www.flhealthcharts.com/FLQUERY/Death/DeathCount.aspx
+Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders from 2009-2018
+| Data variable   | Description |
+| ---  | --- |
+|Cardiovascular deaths 2018	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2018
+|Cardiovascular deaths 2017	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2017	
+|Cardiovascular deaths 2016	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2016	
+|Cardiovascular deaths 2015	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2015	
+|Cardiovascular deaths 2014	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2014	
+|Cardiovascular deaths 2013	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2013	
+|Cardiovascular deaths 2012	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2012
+|Cardiovascular deaths 2011	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2011	
+|Cardiovascular deaths 2010	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2010	
+|Cardiovascular deaths 2009	| Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disorders in 2009
 
 #### Reportable Diseases Frequency for all diseases besides AIDS, HIV infection, sexually transmitted diseases, or tuberculosis, among ages 00-04, 05-09, 10-14, 15-19. http://www.flhealthcharts.com/ChartsReports/rdPage.aspx?rdReport=FrequencyMerlin.Frequency&FirstTime=True
 | Data variable   | Description |
