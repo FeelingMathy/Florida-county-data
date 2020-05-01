@@ -853,6 +853,18 @@ Deaths caused by Major Cardiovascular Disease or Other Circulatory System Disord
 | Liscensed Barbers | Total number of licensed barbers as of 2020
 | Lisensed Cosmetologists | Total number of licensed cosmetologists as of 2020
 
+#### Total state and county prisons: https://hifld-geoplatform.opendata.arcgis.com/datasets/prison-boundaries/data
+The prison boundary feature class/shapefile contains secure detention facilities. These facilities range in jurisdiction from federal(excluding military) to local governments.
+| Data variable   | Description |
+| ---  | --- |
+| Total Prisons | Sum of state and county prisons within the county
+
+#### Meat Processing Plants: https://hifld-geoplatform.opendata.arcgis.com/datasets/poultry-slaughtering-and-processing-facilities
+This dataset consists of facilities which engage in slaughtering, processing, and/or warehousing for the purpose of producing poultry and egg products. Facilities where poultry is raised or where eggs are laid are not included in this dataset, as they are included in a separate layer.
+| Data variable   | Description |
+| ---  | --- |
+| Meat Processing Plants | Sum of poultry, slaughtering, and processing facilities located in the county as of 2009 (latest count).
+
 #### Churches http://www.usreligioncensus.org/compare.php
 | Data variable   | Description |
 | ---  | --- |
