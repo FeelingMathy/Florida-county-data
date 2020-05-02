@@ -491,7 +491,7 @@ This is where the data is from: https://www.countyhealthrankings.org/app/florida
 | 80th Percentile Income | 80th percentile of median household income	
 | 20th Percentile Income | 20th percentile of median household income	
 | Income Ratio | Ratio of household income at the 80th percentile to income at the 20th percentile
-| Associations | Number of associations
+| Associations | Number of associations (think of these sorts of things, plus other not-so-boring club things https://www.business2community.com/strategy/top-10-business-networking-groups-you-should-join-0385283)
 | Social Association Rate | Associations per 10,000 population
 | Injury Deaths | Number of injury deaths
 | Injury Death Rate | Injury mortality rate per 100,000
