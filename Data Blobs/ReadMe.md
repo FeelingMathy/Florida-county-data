@@ -1,34 +1,40 @@
-## List of columns (currently)
+## List of columns (currently). These are just individual files formed from the larger county data file for convenient use in more specialized areas. District files are the same data, but condensed into Florida Medical Examiner districts instead of counties.
+
+### Row Variables
+| Data variable   | Description |
+| ---  | --- |
+|District 1| Escambia, Okaloosa, Santa Rosa, Walton counties |
+|District 2| Franklin, Gadsden, Jefferson, Leon, Liberty, Taylor, Wakulla counties|
+|District 3| Columbia, Dixie, Hamilton, Lafayette, Madison, Suwanee counties|
+|District 4| Clay, Duval, Nassau counties|
+|District 5| Citrus, Hernando, Lake, Marion, Sumter counties|
+|District 6| Pasco, Pinellas counties|
+|District 7| Volusia county|
+|District 8| Alachua, Baker, Bradford, Gilchrist, Levy, Union counties|
+|District 9| Orange county|
+|District 10| Hardee, Highlands, Polk counties|
+|District 11| Miami-Dade county|
+|District 12| DeSoto, Manatee, Sarasota counties|
+|District 13| Hillsborough county|
+|District 14| Bay, Calhoun, Gulf, Holmes, Jackson, Washington counties|
+|District 15| Palm Beach county|
+|District 16| Monroe county|
+|District 17| Broward county|
+|District 18| Brevard county|
+|District 19| Indian River, Martin, Okeechobee, St. Lucie counties|
+|District 20| Collier county|
+|District 21| Glades, Hendry, Lee counties|
+|District 22| Charlotte county|
+|District 23| Flagler, Putnam, St. Johns counties|
+|District 24| Seminole county|
+|District 25| Osceola county|
+
 ### Data variables
 | Data variable   | Description |
 | ---  | --- |
 |FIPS| State-County FIPS Code |
 |State| State Abbreviation |
 |Area Name| Area name (State/County) |
-
-### Data variables
-#### Rural-Urban continuum code descriptors: https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/
-The 2013 Rural-Urban Continuum Codes form a classification scheme that distinguishes metropolitan counties by the population size of their metro area, and nonmetropolitan counties by degree of urbanization and adjacency to a metro area. The official Office of Management and Budget (OMB) metro and nonmetro categories have been subdivided into three metro and six nonmetro categories. Each county in the U.S. is assigned one of the 9 codes. This scheme allows researchers to break county data into finer residential groups, beyond metro and nonmetro, particularly for the analysis of trends in nonmetro areas that are related to population density and metro influence. The Rural-Urban Continuum Codes were originally developed in 1974. They have been updated each decennial since (1983, 1993, 2003, 2013), and slightly revised in 1988. Note that the 2013 Rural-Urban Continuum Codes are not directly comparable with the codes prior to 2000 because of the new methodology used in developing the 2000 metropolitan areas. See the Documentation for details and a map of the codes.
-| Data variable   | Description |
-| ---  | --- |
-|Rural urban Continuum Code 2013| Rural-urban Continuum Code, 2013 |
-
-### Data variables
-#### Urban Influence code descriptors: https://www.ers.usda.gov/data-products/urban-influence-codes.aspx
-The 2013 Urban Influence Codes form a classification scheme that distinguishes metropolitan counties by population size of their metro area, and nonmetropolitan counties by size of the largest city or town and proximity to metro and micropolitan areas. The standard Office of Management and Budget (OMB) metro and nonmetro categories have been subdivided into two metro and 10 nonmetro categories, resulting in a 12-part county classification. This scheme was originally developed in 1993. This scheme allows researchers to break county data into finer residential groups, beyond metro and nonmetro, particularly for the analysis of trends in nonmetro areas that are related to population density and metro influence.
-| Data variable   | Description |
-| ---  | --- |
-|Urban Influence Code 2013| Urban Influence Code, 2013|
-
-
-### Data variables
-#### Urban Influence code descriptors: https://www.ers.usda.gov/data-products/county-typology-codes/
-An area's economic and social characteristics have significant effects on its development and need for various types of public programs. To provide policy-relevant information about diverse county conditions to policymakers, public officials, and researchers, ERS has developed a set of county-level typology codes that captures a range of economic and social characteristics.
-
-The 2015 County Typology Codes classify all U.S. counties according to six mutually exclusive categories of economic dependence and six overlapping categories of policy-relevant themes. The economic dependence types include farming, mining, manufacturing, Federal/State government, recreation, and nonspecialized counties. The policy-relevant types include low education, low employment, persistent poverty, persistent child poverty, population loss, and retirement destination.
-| Data variable   | Description |
-| ---  | --- |
-|Economic typology 2015| County economic types, 2015 edition|
 
 ### Data variables
 #### Population Estimates: https://github.com/JieYingWu/COVID-19_US_County-level_Summaries
