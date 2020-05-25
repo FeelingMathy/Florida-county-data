@@ -1,5 +1,3 @@
-## List of columns (currently) included in the individual blobs of data. The data here are just the entire Florida file broken up into more manageable chunks.
-
 ### Data variables
 | Data variable   | Description |
 | ---  | --- |
